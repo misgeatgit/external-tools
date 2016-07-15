@@ -14,7 +14,7 @@
   - (nlp-parse "A sentence here")
 
  - Connect the visualize and start watching.
- - 
+ 
  *Note* - This visualizer is kind of a hack. All it does is refresh every 5sec and display fixed size random atoms from the AF. The reason we wanted fixed set of rando atoms is that to solve the cluttered display problem.
  
     
