@@ -11,6 +11,7 @@
   - agents-start opencog::ImportanceUpdatingAgent
 - Parse a sentence
   - (use-modules (opencog) (opencog atom-types) (opencog persist-pgsql) (opencog openpsi)(opencog nlp relex2logic)(opencog rule-engine) (opencog query) (opencog nlp chatbot))
+  - (nlp-set-stimulation <some amount>)  lets use 60 for some amount
   - (nlp-parse "A sentence here")
 
  - Connect the visualize and start watching.
